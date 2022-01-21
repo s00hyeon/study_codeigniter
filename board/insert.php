@@ -27,7 +27,6 @@
     }
     else{
         echo "DB접속완료";
-
     }
 
     // 목표: write.php의 name, message 값을 post로 받아서 insert.php에서 처리
@@ -51,7 +50,7 @@
         echo '저장 성공';
     }
 
-    echo "<hr/><a href='index.html'>메인으로 이동하기</a>";
+    echo "<hr/><a href='index.php'>메인으로 이동하기</a>";
     mysqli_close($conn);
 
 ?>
