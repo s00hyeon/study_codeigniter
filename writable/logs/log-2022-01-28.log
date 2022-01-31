@@ -1,6 +1,0 @@
-CRITICAL - 2022-01-28 05:35:29 --> The framework needs the following extension(s) installed and loaded: intl.
-#0 C:\Bitnami\wampstack-8.1.1-0\apache2\htdocs\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
-#1 C:\Bitnami\wampstack-8.1.1-0\apache2\htdocs\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
-#2 C:\Bitnami\wampstack-8.1.1-0\apache2\htdocs\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
-#3 C:\Bitnami\wampstack-8.1.1-0\apache2\htdocs\public\index.php(28): require('...')
-#4 {main}
